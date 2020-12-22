@@ -1,5 +1,7 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
+
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(SpriteRenderer))]
 
 public class PlayerAnimation : MonoBehaviour
 {

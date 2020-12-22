@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
+
 public class Fader : MonoBehaviour
 {
     [SerializeField] [Range(0f, 5f)] private float _duration;
